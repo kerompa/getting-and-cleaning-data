@@ -1,8 +1,8 @@
 # Getting-and-cleaning-data
 This repository is about the final course project on Coursera.  
-This repo has readme.md, codebook.md, run_analysis.R, tidydata.csv.  
-The codebook describes the variables and the data in tidydata.csv.  
-Therefore, if you are not clear about the tidydata.csv, please refer the codebook.  
+This repo has readme.md, codebook.md, run_analysis.R, tidydata.txt.  
+The codebook describes the variables and the data in tidydata.txt.  
+Therefore, if you are not clear about the tidydata.txt, please refer the codebook.  
   
 # run_analysis.R
 This R file is for creating new tidy data set from the original one that you can get from  
@@ -18,6 +18,6 @@ The file has 5 steps described below.
 Note:  
 *Before executing this file, you need to download the zip file and unzip it. Once you unzip the folder, then you need to set this folder as a working directory.*  
   
-# tidydata.csv
+# tidydata.txt
 This file is the final product of run_analysis.R  
 The description about the variables is showed in codebook.md.
