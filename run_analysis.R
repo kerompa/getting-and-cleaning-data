@@ -27,7 +27,7 @@ library(stringr)
 #convert variable names as decriptive one
 variables <- str_replace_all(variables, pattern="std", replacement="standard-deviation")
 variables <- str_replace_all(variables, pattern = "^t", replacement = "time-")
-variables <- str_replace_all(variables, pattern = "^f", replacement = "FFT-")
+variables <- str_replace_all(variables, pattern = "^f", replacement = "freq")
 variables <- str_replace_all(variables, pattern = "Mag", replacement = "-Magnitude")
 variables <- str_replace_all(variables, pattern = "Acc", replacement = "-Acceleration")
 variables <- str_replace_all(variables, pattern = "Gyro", replacement = "-Gyroscope")
