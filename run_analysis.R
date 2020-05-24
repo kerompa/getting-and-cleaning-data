@@ -39,4 +39,4 @@ names(data_step2) <- c(variables, "activity", "subject") # Change the variable n
 #with the average of each variable for each activity and each subject.
 dataset <- aggregate(. ~activity + subject, data_step2, mean) # create new tidy data set
 
-write.csv(dataset, "tidydata.csv") #output the new tidy dataset.
+write.table(dataset, "tidydata.txt", row.name=FALSE) #output the new tidy dataset.
